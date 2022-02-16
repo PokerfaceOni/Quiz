@@ -1,0 +1,390 @@
+<html>
+    <!--
+    
+    Nome: Danilo Lopes da Costa
+    Tema: AppQuiz
+
+    -->
+    <head>
+        <meta charset="UTF-8">
+        <title>Quiz</title>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+    </head>
+    
+    <!-- Corpo do site -->
+    
+    <body>
+        <div class="container px-3 py-4" id="hanging-icons">
+            <h2 style="text-align: center;">Tema do projeto: App Quiz</h2>
+            <br>
+            <h2>Sobre o que se trata o quiz?</h2>
+            <p>O quiz a seguir propõe perguntas sobre curiosidades envolvendo o Brasil e as Américas no geral em um sentido geográfico.</p>
+            <br>
+            
+            <!--  <div class="form-group row">
+                <h4 class="pb-2">Insira seu nome e confirme:</h4>
+                <div class="col-sm-10">
+                    <input type="text" id="jogador" />
+                    <a onclick="armazenaNome()" class="btn btn-primary">
+                    Enviar
+                    </a>
+                </div>     
+            </div><br>
+            
+            Script que armazena o nome de usuário
+            
+            <script type="text/javascript">
+                                
+                function armazenaNome(){
+                    nome = document.getElementById("jogador").value;
+                }
+            
+            </script>  -->
+            
+            <!-- Primeira pergunta do quizz -->
+            
+            <div style="background-color: azure;">
+                <div style="background-color:aquamarine;">
+                    <h4 class="pb-2 border-bottom px-3" >1. Como se chama o continente onde o Brasil está localizado?</h4>
+                </div>
+                <div class="px-4">
+                    <div class="form-check">
+                        <input class="form-check-input calcula" type="radio" name="pergunta1" id="p1" value="0" >
+                        <label class="form-check-label" for="p1a">
+                        Europa
+                        </label>
+                    </div>
+
+                    <div class="form-check">
+                        <input class="form-check-input calcula" type="radio" name="pergunta1" id="p1" value="0" >
+                        <label class="form-check-label" for="p1b">
+                        America Central
+                        </label>
+                    </div>
+
+                    <div class="form-check">
+                        <input class="form-check-input calcula" type="radio" name="pergunta1" id="p1" value="1">
+                        <label class="form-check-label" for="p1c">
+                        America do Sul
+                        </label>
+                    </div>
+                </div><br>
+                
+            </div><br>
+            
+            <!-- Segunda pergunta do quizz -->
+            
+            <div style="background-color: azure;">
+                <div style="background-color:aquamarine;">
+                    <h4 class="pb-2 border-bottom px-3">2. Qual é a capital do Acre?</h4>
+                </div>
+                <div class="px-4">
+                    <div class="form-check">
+                        <input class="form-check-input calcula" type="radio" name="pergunta2" id="p2" value="1" >
+                        <label class="form-check-label" for="p2a">
+                        Rio Branco
+                        </label>
+                    </div>
+
+                    <div class="form-check">
+                        <input class="form-check-input calcula" type="radio" name="pergunta2" id="p2" value="0" >
+                        <label class="form-check-label" for="p2b">
+                        Rondonia
+                        </label>
+                    </div>
+
+                    <div class="form-check">
+                        <input class="form-check-input calcula" type="radio" name="pergunta2" id="p2" value="0">
+                        <label class="form-check-label" for="p2c">
+                        Acre
+                        </label>
+                    </div>
+                </div><br>
+                
+            </div><br>
+            
+            <!-- Terceira pergunta do quizz -->
+            
+            <div style="background-color: azure;">
+                <div style="background-color:aquamarine;">
+                    <h4 class="pb-2 border-bottom px-3" >3. Qual é a linha imaginária que atravessa o Brasil?</h4>
+                </div>
+                <div class="px-4">
+                    <div class="form-check">
+                        <input class="form-check-input calcula" type="radio" name="pergunta3" id="p3" value="0" >
+                        <label class="form-check-label" for="p3a">
+                        Greenwich
+                        </label>
+                    </div>
+
+                    <div class="form-check">
+                        <input class="form-check-input calcula" type="radio" name="pergunta3" id="p3" value="1" >
+                        <label class="form-check-label" for="p3b">
+                        Equador
+                        </label>
+                    </div>
+
+                    <div class="form-check">
+                        <input class="form-check-input calcula" type="radio" name="pergunta3" id="p3" value="0">
+                        <label class="form-check-label" for="p3c">
+                        Circulo Polar Ártico
+                        </label>
+                    </div>
+                </div><br>
+                
+            </div><br>
+            
+            <!-- Quarta pergunta do quizz -->
+            
+            <div style="background-color: azure;">
+                <div style="background-color:aquamarine;">
+                    <h4 class="pb-2 border-bottom px-3">4. Qual é o oceano que banha o Brasil?</h4>
+                </div>
+                <div class="px-4">
+                    <div class="form-check">
+                        <input class="form-check-input calcula" type="radio" name="pergunta4" id="p4" value="0" >
+                        <label class="form-check-label" for="p4a">
+                        Pacífico
+                        </label>
+                    </div>
+
+                    <div class="form-check">
+                        <input class="form-check-input calcula" type="radio" name="pergunta4" id="p4" value="0" >
+                        <label class="form-check-label" for="p4b">
+                        Índico
+                        </label>
+                    </div>
+
+                    <div class="form-check">
+                        <input class="form-check-input calcula" type="radio" name="pergunta4" id="p4" value="1">
+                        <label class="form-check-label" for="p4c">
+                        Atlântico
+                        </label>
+                    </div>
+                </div><br>
+                
+            </div><br>
+            
+            <!-- Quinta pergunta do quizz -->
+            
+            <div style="background-color: azure;">
+                <div style="background-color:aquamarine;">
+                    <h4 class="pb-2 border-bottom px-3" >5. O mais populoso dos estados brasileiros abaixo é?</h4>
+                </div>
+                <div class="px-4">
+                    <div class="form-check">
+                        <input class="form-check-input calcula" type="radio" name="pergunta5" id="p5" value="1" >
+                        <label class="form-check-label" for="p5a">
+                        Bahia
+                        </label>
+                    </div>
+
+                    <div class="form-check">
+                        <input class="form-check-input calcula" type="radio" name="pergunta5" id="p5" value="0" >
+                        <label class="form-check-label" for="p5b">
+                        Alagoas
+                        </label>
+                    </div>
+
+                    <div class="form-check">
+                        <input class="form-check-input calcula" type="radio" name="pergunta5" id="p5" value="0">
+                        <label class="form-check-label" for="p5c">
+                        Distrito Federal
+                        </label>
+                    </div>
+                </div><br>
+                
+            </div><br>
+            
+            <!-- Sexta pergunta do quizz -->
+            
+            <div style="background-color: azure;">
+                <div style="background-color:aquamarine;">
+                    <h4 class="pb-2 border-bottom px-3" >6. Qual desse países não fazem fronteira com o Brasil?</h4>
+                </div>
+                <div class="px-4">
+                    <div class="form-check">
+                        <input class="form-check-input calcula" type="radio" name="pergunta6" id="p6" value="0" >
+                        <label class="form-check-label" for="p6a">
+                        Bolivia
+                        </label>
+                    </div>
+
+                    <div class="form-check">
+                        <input class="form-check-input calcula" type="radio" name="pergunta6" id="p6" value="1" >
+                        <label class="form-check-label" for="p6b">
+                        Chile
+                        </label>
+                    </div>
+
+                    <div class="form-check">
+                        <input class="form-check-input calcula" type="radio" name="pergunta6" id="p6" value="0">
+                        <label class="form-check-label" for="p6c">
+                        Argentina
+                        </label>
+                    </div>
+                </div><br>
+                
+            </div><br>
+            
+            <!-- Sétima pergunta do quizz -->
+            
+            <div style="background-color: azure;">
+                <div style="background-color:aquamarine;">
+                    <h4 class="pb-2 border-bottom px-3" >7. Qual é a cidade mais habitada do Brasil?</h4>
+                </div>
+                <div class="px-4">
+                    <div class="form-check">
+                        <input class="form-check-input calcula" type="radio" name="pergunta7" id="p7" value="1" >
+                        <label class="form-check-label" for="p7a">
+                        São Paulo
+                        </label>
+                    </div>
+
+                    <div class="form-check">
+                        <input class="form-check-input calcula" type="radio" name="pergunta7" id="p7" value="0" >
+                        <label class="form-check-label" for="p7b">
+                        Rio de Janeiro
+                        </label>
+                    </div>
+
+                    <div class="form-check">
+                        <input class="form-check-input calcula" type="radio" name="pergunta7" id="p7" value="0">
+                        <label class="form-check-label" for="p7c">
+                        Curitiba
+                        </label>
+                    </div>
+                </div><br>
+                
+            </div><br>
+            
+            <!-- Oitava pergunta do quizz -->
+            
+            <div style="background-color: azure;">
+                <div style="background-color:aquamarine; ">
+                    <h4 class="pb-2 border-bottom px-3" >8. Qual desses estados não aderem ao Horário de Verão?</h4>
+                </div>
+                <div class="px-4">
+                    <div class="form-check">
+                        <input class="form-check-input calcula" type="radio" name="pergunta8" id="p8" value="1" >
+                        <label class="form-check-label" for="p8a">
+                        Amazonas
+                        </label>
+                    </div>
+
+                    <div class="form-check">
+                        <input class="form-check-input calcula" type="radio" name="pergunta8" id="p8" value="0" >
+                        <label class="form-check-label" for="p8b">
+                        Paraná
+                        </label>
+                    </div>
+
+                    <div class="form-check">
+                        <input class="form-check-input calcula" type="radio" name="pergunta8" id="p8" value="0">
+                        <label class="form-check-label" for="p8c">
+                        Santa Catarina
+                        </label>
+                    </div>
+                </div><br>
+                
+            </div><br>
+            
+            <!-- Nona pergunta do quizz -->
+            
+            <div style="background-color: azure;">
+                <div style="background-color:aquamarine;">
+                    <h4 class="pb-2 border-bottom px-3" >9. Quinto maior país do mundo em extensão?</h4>
+                </div>
+                <div class="px-4">
+                    <div class="form-check">
+                        <input class="form-check-input calcula" type="radio" name="pergunta9" id="p9" value="0" >
+                        <label class="form-check-label" for="p9a">
+                        Canadá
+                        </label>
+                    </div>
+
+                    <div class="form-check">
+                        <input class="form-check-input calcula" type="radio" name="pergunta9" id="p9" value="0" >
+                        <label class="form-check-label" for="p9b">
+                        Estados Unidos
+                        </label>
+                    </div>
+
+                    <div class="form-check">
+                        <input class="form-check-input calcula" type="radio" name="pergunta9" id="p9" value="1">
+                        <label class="form-check-label" for="p9c">
+                        Brasil
+                        </label>
+                    </div>
+                </div><br>
+                
+            </div><br>
+            
+            <!-- Décima pergunta do quizz -->
+            
+            <div style="background-color: azure;">
+                <div style="background-color:aquamarine;">
+                    <h4 class="pb-2 border-bottom px-3" >10. Quantos países tem as américas?</h4>
+                </div>
+                <div class="px-4">
+                    <div class="form-check">
+                        <input class="form-check-input calcula" type="radio" name="pergunta10" id="p10" value="0" >
+                        <label class="form-check-label" for="p10a">
+                        40
+                        </label>
+                    </div>
+
+                    <div class="form-check">
+                        <input class="form-check-input calcula" type="radio" name="pergunta10" id="p10" value="1" >
+                        <label class="form-check-label" for="p10b">
+                        37
+                        </label>
+                    </div>
+
+                    <div class="form-check">
+                        <input class="form-check-input calcula" type="radio" name="pergunta10" id="p10" value="0">
+                        <label class="form-check-label" for="p10c">
+                        75
+                        </label>
+                    </div>
+                </div><br>
+                
+            </div><br>
+            
+            <a onclick="resultadoQuiz()" class="btn btn-primary">
+                Cálcular Resultado
+            </a><br><br>
+            
+            <h3>Sua pontuação do quiz é: <div id="resultadoQuiz"></div><span id="resultadoQuiz"/></h3>
+
+            
+             <!-- Script do cálculo do resultado do quiz -->
+            
+            <script type="text/javascript">
+                
+               // function resultadoQuiz(){
+                    
+                   // pontos = document.querySelector('input[name="pergunta1"]:checked').value;
+                    
+                    
+                    
+                   // document.getElementById("resultadoQuiz").innerHTML = pontos ;
+                //}
+                
+                function resultadoQuiz(){
+                    var pontos = 0;
+                    var ele = document.getElementsByClassName('calcula');
+                    var resultado = document.getElementById("resultadoQuiz");
+                    for(i = 0; i < ele.length; i++) { 
+                        if(ele[i].checked)
+                        pontos+=parseInt(ele[i].value)
+                    }
+                    resultado.innerHTML = pontos;
+                }
+            
+            </script>
+
+        </div>
+    </body>
+
+</html>
